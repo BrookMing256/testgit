@@ -1,0 +1,15 @@
+# Build outputs
+backend/target/
+frontend/node_modules/
+frontend/dist/
+
+# IDE settings
+.idea/
+*.iml
+.vscode/
+
+# Logs and local environment files
+*.log
+.env
+.env.*
+!.env.example
