@@ -13,5 +13,6 @@ public class HelloController {
     @GetMapping("/api/hello")
     public Map<String, String> hello() {
         return Map.of("message", "Hello from Spring Boot backend! test1);
+        return Map.of("message", "Hello from Spring Boot backend! test2);
     }
 }
